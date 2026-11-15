@@ -12,5 +12,4 @@ Terminal interactiva de planificación financiera corporativa (FP&A) y gestión 
 - **Reportes Ejecutivos:** Exportación automatizada de informes gerenciales en PDF (`ReportLab`) y Excel (`openpyxl`).
 - **CFO Virtual con IA:** Generación de memorándums ejecutivos para directorio y chat analítico en tiempo real.
 
-## Stack Tecnológico
-`Python` · `Streamlit` · `Pandas` · `Plotly` · `yfinance` · `ReportLab` · `Groq API`
+Cualquier corrección es bienvenida, muchas gracias.
