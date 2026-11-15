@@ -1,14 +1,16 @@
-# Simulador de Flujo de Caja predictivo, tesorería y valuación (DCF) + IA
+# Aurelio FP&A Terminal
 
-Aplicación financiera interactiva diseñada para proyectar flujos de caja operativos, optimizar la colocación de excedentes de liquidez (Cash Management) y estimar el Valor Presente Neto (DCF) bajo distintos escenarios macroeconómicos, complementada con un Copiloto Ejecutivo impulsado por Gemini.
+Terminal interactiva de planificación financiera corporativa (FP&A) y gestión estratégica de tesorería desarrollada en Python y Streamlit.
 
-## Funcionalidades Principales
-- **Modelado Operativo y Sensibilidad:** Proyección dinámica a 3–12 meses de ingresos, costos variables y estructura fija con soporte para carga de datos históricos propios en CSV.
-- **Optimización de Tesorería (Cash Management):** Cálculo de devengamiento financiero sobre saldos excedentes de caja y comparación frente al costo de capital (WACC).
-- **Valuación por Flujo de Fondos Descontados (DCF):** Estimación en tiempo real del Valor Presente de los flujos proyectados.
-- **Copiloto Financiero (IA):** Generación automatizada de memorándums ejecutivos con diagnóstico de solvencia, estrategia de *laddering* (T+0 vs. T+30/60) y alertas de riesgo operativo.
+🔗 **Demo en vivo:** [Abrir Aurelio FP&A Terminal](https://TU-LINK-DE-STREAMLIT.streamlit.app)
+
+## Funcionalidades principales
+- **Proyección de Flujo de Caja:** Modelado multi-horizonte bajo escenarios base, optimista y pesimista.
+- **Punto de Equilibrio y Solvencia:** Cálculo dinámico de *break-even* operativo y margen de seguridad promedio.
+- **Valuación DCF & WACC:** Descuento de flujos proyectados frente al costo de capital y medición de *spread* en puntos básicos (bps).
+- **Tesorería y Riesgo-Retorno:** Simulación de cartera combinando liquidez inmediata T+0 y cotizaciones reales vía `yfinance` (CAGR y volatilidad anualizada).
+- **Reportes Ejecutivos:** Exportación automatizada de informes gerenciales en PDF (`ReportLab`) y Excel (`openpyxl`).
+- **CFO Virtual con IA:** Generación de memorándums ejecutivos para directorio y chat analítico en tiempo real.
 
 ## Stack Tecnológico
-- **Lenguaje y Procesamiento:** Python, Pandas, NumPy
-- **Visualización e Interfaz:** Streamlit, Plotly
-- **Inteligencia Artificial:** Google GenAI SDK (`gemini-3.8-flash`)
+`Python` · `Streamlit` · `Pandas` · `Plotly` · `yfinance` · `ReportLab` · `Groq API`
